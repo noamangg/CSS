@@ -1,0 +1,124 @@
+a {
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  text-transform: capitalize;
+  text-decoration: none;
+  vertical-align: middle;
+  padding: 20px 30px;
+  margin: 30px;
+  font-size: 40px;
+  font-weight: bold;
+  color: aliceblue;
+  background-color: rgb(0, 158, 158);
+  border-bottom: 10px rgb(0, 85, 85) solid;
+
+
+  display: inline-block;
+
+}
+body{
+
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* div {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+
+  width: 400px;
+
+  padding: 20px;
+  margin : 40px;
+  background-color: rgb(211, 211, 211);
+
+  white-space: nowrap;
+  word-break: initial;
+
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* p {
+
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 60px;
+  text-shadow: 2px 2px red, 4px 4px green, 6px 6px blueviolet;
+} */
+
+/* .one {
+  text-transform: uppercase;
+}
+
+.two {
+  text-transform: capitalize;
+}
+
+.three {
+  text-transform: lowercase;
+}
+.one,
+.two,
+.three {
+  font-family: Arial, Helvetica, sans-serif;
+
+  text-align: center;
+} */

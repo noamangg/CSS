@@ -1,0 +1,24 @@
+
+
+div{
+  background-color: red;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 500px;
+  padding: 15px;
+  color: aliceblue;
+  font: small-caption;
+  font-size: 20px;
+
+  background-color: blueviolet;
+  background-color: #8A2BE2;
+}
+.assign-1-shape-2{
+  background-color: rgb(138 43 226 /50%);
+}
+.assign-1-shape-3{
+  background-color: rgb(138 43 226 /10%);
+
+}

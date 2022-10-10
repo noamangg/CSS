@@ -1,0 +1,42 @@
+body{
+  padding: 30px;
+  background-color: aqua;
+}
+
+div {
+  color: aliceblue;
+  background-image: url(../../../../image-1.png);
+  padding: 20px;
+  margin: 20px;
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(223, 223, 223);
+  font-size: 20px;
+  background-size: 80%;
+
+}
+
+.assign-4-shape-1 {
+  background-repeat: no-repeat;
+
+}
+
+.assign-4-shape-2 {
+  background-repeat: repeat-y;
+  background-position: right;
+
+}
+
+.assign-4-shape-3 {
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+
+.assign-4-shape-4 {
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 50%;
+}
+
+

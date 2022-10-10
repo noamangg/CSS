@@ -1,0 +1,50 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+    
+  }
+  
+  body{
+    padding-top: 20px;
+
+  }
+
+p {
+  padding: 20px;
+  background-color: rgb(211, 211, 211);
+  font: message-box;
+  border-left: 10px;
+  border-left-style: solid;
+  font-size: 20px;
+  margin: 0em;
+  
+
+}
+div {
+  padding: 10px;
+  background-color:rgb(211, 211, 211);
+  margin: 20px;
+}
+
+.pargraph-1 {
+  border-left-color: rgb(15, 161, 15);
+}
+
+.pargraph-2 {
+  border-left-color: rgb(253, 31, 31);
+}
+
+.pargraph-3 {
+  border-left-color: rgb(253, 31, 31);
+}
+
+

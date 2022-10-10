@@ -1,0 +1,63 @@
+body {
+  background-color: #333;
+}
+
+p {
+  max-width: 400px;
+  font-size: 15px;
+  width: fit-content;
+  max-height: 50px;
+  text-transform: capitalize;
+  background-color: rgb(206, 37, 37);
+  color: aliceblue;
+  padding: 5px; 
+  overflow: hidden;
+
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+Task 1
+.parent .child .title {
+  color: red;
+}
+.parent .title {
+  color: blue;
+}
+
+
+
+.title,
+p {
+  color: green;
+} */

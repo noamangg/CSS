@@ -1,0 +1,36 @@
+
+
+div {
+  border-width: 5px;
+  padding: 15px;
+  display: inline-block;
+  
+
+
+
+}
+.p1 {
+  border-color: black;
+  border-style: solid;
+  margin: 10px;
+  padding: 0px;
+
+}
+
+.assign-4-shape-1 {
+  border-color: red;
+  border-style: solid;
+}
+
+.assign-4-shape-2 {
+  border-color: blue green;
+  border-style: solid;
+}
+
+.assign-4-shape-3 {
+  border-color: red green blue yellow;
+  border-style: dashed;
+}
+
+
+
