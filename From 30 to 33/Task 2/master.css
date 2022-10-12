@@ -1,0 +1,70 @@
+div {
+  width: 400px;
+  position: absolute;
+  /* margin: auto; if we don't use position = */
+  left: calc((100% - 400px)/2);
+
+  line-height: 2;
+
+  background-color: rgb(216, 216, 216);
+  padding: 20px;
+  position: relative;
+
+  border-left: 2px #2196f3 solid;
+  border-right: 2px #2196f3 solid;
+
+  border-bottom: 2px #ff1e00 solid;
+  border-top: 2px #ff1e00 solid;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+  padding: 30px;
+}
+
+span {
+  width: 40px;
+  height: 20x;
+  background-color: #2196f3;
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  text-align: center;
+
+
+  color: aliceblue;
+}
+.top-left {
+  top: -10px;
+  left: -10px;
+}
+
+.top-left,
+.bottom-left {
+  border-right: 2px #ff1e00 solid ;
+}
+.top-right,
+.bottom-right {
+  border-left: 2px #ff1e00 solid ;
+}
+
+.top-right {
+  top: -10px;
+  right: -10px;
+
+}
+
+.bottom-left {
+  bottom: -10px;
+  left: -10px;
+
+}
+
+.bottom-right {
+  bottom: -10px;
+  right: -10px;
+
+}
+
+
