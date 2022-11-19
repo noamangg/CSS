@@ -1,0 +1,62 @@
+main aside {
+  font-size: var(--mainFontSize);
+  width: 19%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+
+  justify-content: space-between;
+
+  background-color: var(--sectionsBGColor);
+  border-radius: var(--mainBorder);
+
+  padding: var(--mainPadding);
+}
+
+aside div {
+  width: 100%;
+  height: 49%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 20px;
+
+  background-color: var(--mainBGColor);
+}
+
+aside div p {
+  font-weight: bold;
+  font-size: 16px;
+}
+aside div ul {
+  height: 40%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+
+  list-style-type: square;
+  list-style-position: inside;
+
+  font-weight: bold;
+}
+aside div ul li a {
+  font-weight: bold;
+  font-size: 12px;
+
+  transition-duration: .5s;
+  
+  transition-property: font-size;
+}
+
+aside div ul li a:hover {
+  font-size: 16px;
+
+
+}

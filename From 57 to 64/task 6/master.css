@@ -1,0 +1,83 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 10px;
+  background-color: #eeeeee;
+}
+
+
+.parent {
+  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr repeat(2, 1.5fr) 0.75fr;
+  gap: 10px;
+}
+
+.parent div {
+  background-color: white;
+
+  border-radius: 5px;
+  border-bottom: 3px solid #ff3d00;
+  
+  padding: 20px;
+}
+
+.osama {
+  grid-column: 1 / 3;
+  grid-row:  1 / 2;
+}
+.sayed {
+  grid-column: 3/4 ;
+  grid-row:  1/2;
+}
+.nabil {
+  grid-column: 4 / 4;
+  grid-row: 1 / 4;
+  
+}
+
+.ibrahim {
+  grid-area: 2 / 1 / 4 / 2;
+}
+
+.mohamad {
+  grid-area: 2 / 2 / 3 / 4;
+}
+
+.eldin {
+  grid-area: 3 / 2 / 4 / 4;
+}
+
+
+
+h1 {
+  font-size: 20px;
+  padding-bottom: 5px;
+
+}
+.job {
+  font-size: 18px;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.dea {
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+
+.des {
+  font-size: 17px;
+}
+
+.mohamad, 
+.nabil,
+.sayed3 {
+  color: white;
+  background-color: black !important;
+}

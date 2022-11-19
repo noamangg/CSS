@@ -1,0 +1,170 @@
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  
+  color: #517ec3;
+  margin: 0;
+  font-size: var(--mainFontSize);
+  font-family: 'Fragment Mono', monospace;
+}
+
+
+
+:root {
+  --mainBGColor: #141414;
+  /* --mainBGColor: #eee; */
+  --sectionsBGColor: #181818;
+  /* --sectionsBGColor: #ddd; */
+
+  --mainHeight: 100vh;
+
+  --mainPadding: 10px;
+  --mainMargin: 10px;
+
+  --mainSpaces: 4%;
+
+  --footerFontSize: 12px;
+  --headerFontSize: 16px;
+  --mainFontSize: 20px;
+
+  --mainBorder: 5px;
+}
+
+
+
+
+
+body {
+  
+  height: var(--mainHeight,100vh);
+  padding: var(--mainPadding);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+  background-color: var(--mainBGColor);
+
+}
+
+/* Header CSS */
+
+header {
+  font-weight: bold;
+  flex-basis: 8%;
+
+  
+
+
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  
+}
+
+header ul {
+  list-style: none;
+  background-color: var(--sectionsBGColor);
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+
+  width: calc(96% - var(--mainSpaces, 4%));
+  height: 100%;
+
+  border-radius: var(--mainBorder);
+}
+
+header ul li {
+  padding: 0px 1%;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  font-size: var(--headerFontSize);
+
+}
+header ul li a {
+  font-size: 16px;
+  text-decoration: none;
+
+}
+header ul li a:hover {
+  font-size: 20px;
+
+  transition-duration: 1s;
+  transition-delay: .1s;
+  transition-timing-function: ease;
+  transition-property: font-size;
+}
+
+header .logo {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 7%;
+  height: 100%;
+  background-color: var(--sectionsBGColor);
+
+  border-radius: var(--mainBorder);
+}
+header .logo img {
+  width: 40px;
+  height: 40px;
+}
+
+/* Main CSS */
+
+main {
+  width: 100%;
+  height: 82%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  
+}
+
+
+
+
+
+
+/* Footer CSS */
+
+footer {
+  height: 8%;
+  background-color: var(--sectionsBGColor);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  padding: 0px 20px;
+
+  font-size: var(--footerFontSize);
+
+  border-radius: var(--mainBorder);
+
+}
+footer div {
+  font-size: var(--footerFontSize);
+}
+.design a {
+
+  font-size: var(--footerFontSize);
+
+
+}

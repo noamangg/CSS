@@ -1,0 +1,49 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, auto);
+}
+.grid div {
+  background-color: #2196f3;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one {
+  grid-area: 6 / 1 / 6 / 4;
+}
+.two {
+  grid-column: span 2;
+}
+.five {
+  grid-area: span 3 / span 2;
+
+
+}
+.eight {
+  grid-area: 1 / 1 /1 / -1;
+
+}
+

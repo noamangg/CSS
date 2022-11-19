@@ -1,0 +1,63 @@
+* {
+  padding: 0px;
+  margin: 0px;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  font-size: 20px;
+  font-weight: bold;
+  counter-reset: noaman;
+}
+
+p {
+  background-color: #efefef;
+
+  margin-bottom: 20px;
+  padding: 10px 0px 10px 80px;
+
+  position: relative;
+  top: 20px;
+  left: 50%;
+  margin-left: -240px;
+
+
+  width: 400px;
+
+
+
+}
+
+P::before {
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  /* height: 100%; */
+  /* width: 42.4px; */
+  padding: 10px 20px 10px 20px;
+
+
+  background-color: rebeccapurple;
+  color: white;
+
+  counter-increment: noaman;
+  content: counter(noaman);
+  text-align: center;
+}
+
+p::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 5px;
+
+  background-color: rebeccapurple;
+  content: "";
+
+
+}
+

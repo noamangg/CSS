@@ -1,0 +1,40 @@
+* {
+  -moz-transition-duration: transition-duration;
+  -webkit-transform-duration: transition-duration;
+  -o-transition-duration: transition-duration;
+  transition-duration: .2s;
+}
+
+
+
+.parent {
+
+  margin-top: 60px;
+
+  transition: 2s .5s all;
+
+  background-color: #f2f2f4;
+  text-align: center;
+
+  width: 300px;
+  height: 200px;
+  padding-top: 20px;
+
+}
+.parent:hover {
+  margin-top: 30px;
+
+}
+
+.child {
+  background-color: #dededc;
+  transition-duration: 2s;
+  transition-delay: .5s;
+
+  margin-top: 20px;
+}
+.parent:hover .child {
+  margin-top: 60px;
+
+}
+

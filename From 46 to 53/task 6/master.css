@@ -1,0 +1,101 @@
+
+:root {
+  --mainBGColor: #eee;
+  --sectionsBGColor: #ddd;
+  --mainHeight: 629px;
+
+  --mainPadding: 10px;
+}
+* {
+  margin: 0px;
+}
+
+body {
+  padding: 10px;
+  background-color: var(--mainBGColor, #eee);
+  height: var(--mainHeight, 630px);
+
+}
+
+header {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: calc((var(--mainHeight)*10)/100);
+
+
+}
+header .logo {
+  background-color: var(--sectionsBGColor, #ddd);
+  width: 10%;
+  display: flex;
+  justify-content: center;
+
+  padding: var(--mainPadding, 10px) 0px var(--mainPadding, 10px) 0px;
+}
+
+header ul {
+  background-color: var(--sectionsBGColor, #ddd);
+  list-style-type: none;
+
+  display: flex;
+  justify-content: flex-end;
+
+  width: 89%;
+  padding: 10px 0px;
+
+}
+ul li {
+  padding: 0px var(--mainPadding, 10px);
+  
+
+
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  height: calc((var(--mainHeight)*79)/100);
+}
+
+main section {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  width: 75%;
+
+
+  background-color: var(--sectionsBGColor, #ddd);
+}
+
+main aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 24%;
+  background-color: var(--sectionsBGColor, #ddd);
+}
+
+footer {
+  margin-top: calc(var(--mainHeight)/100);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: var(--sectionsBGColor, #ddd);
+  height: calc((var(--mainHeight)*10)/100);
+
+}
+
+footer div {
+  padding: 0px 10px 0px 20px;
+
+}
+
+
+

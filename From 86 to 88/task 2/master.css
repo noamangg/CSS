@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+}
+
+.arrow {
+  margin: 40px auto;
+  background-color: #eee;
+  padding: 10px;
+
+  width: 400px;
+  position: relative;
+}
+
+.arrow::before {
+  width: 0px;
+  height: 0px;
+
+  border: 20px #eee solid;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  position: absolute;
+
+
+  content: "";
+
+}
+
+.top::before {
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%) rotate(90deg);
+}
+
+.right::before {
+  right: -30px;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.bottom::before {
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-90deg);
+}
+
+.left::before {
+  left: -30px;
+  top: 50%;
+  transform:  translateY(-50%);
+  }

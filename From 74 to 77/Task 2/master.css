@@ -1,0 +1,78 @@
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+body div::after,
+body div::before,
+body div {
+  border-radius: 50%;
+  border: solid 5px black;
+  border-bottom-color: transparent;
+  content: "";
+  position: absolute;
+}
+
+body div {
+  width: 50px;
+  height: 50px;
+  
+  
+  border-color: #0693e3;
+  border-bottom-color: transparent;
+
+  
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  z-index: 1;
+}
+
+div:hover::before,
+div:hover::after,
+div:hover {
+  animation-name: rotateSpin;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  
+}
+div:hover::before {
+  animation-delay: 2s;
+}
+
+
+
+@keyframes rotateSpin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+body div::after {
+  width: 65px;
+  height: 65px;
+  
+  border-color: #fcb900;
+  border-bottom-color: transparent;
+
+}
+
+body div::before {
+  width: 80px;
+  height: 80px;
+}
+
+
+
+
+
