@@ -1,0 +1,7 @@
+
+
+
+
+.parent > :only-child {
+  color: red;
+}

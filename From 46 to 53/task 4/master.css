@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  width: 100%;
+  height: 630px;
+}
+
+
+
+.parent {
+  padding: 10px;
+  width: 600px;
+  height: 300px;
+
+  background-color: #eee;
+  color: black;
+
+
+  display: flex;
+  justify-content: space-between;
+
+  flex-direction: column;
+
+  
+}
+.one,
+.two,
+.three {
+  height: calc(100% / 3.1);
+}
+.one,
+.three {
+  align-self: flex-end;
+
+  width: 5%;
+
+}
+
+.two {
+  width: 50%;
+
+}
+
+
+.parent div {
+  background-color: #009688;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+

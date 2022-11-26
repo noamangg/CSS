@@ -1,0 +1,66 @@
+
+
+/* .class {
+  transform: matrix(3, 0.2679, 0, 3, 20, 100);
+  
+  scalex(), skewy(), skewx(), scaley(), translatx(), transalty()
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  
+  background-color: #607d8b;
+  
+  position: relative;
+  
+  border-bottom: 5px solid black;
+}
+div:before {
+  content: "";
+  width: 138px;
+  height: 138px;
+  
+  position: absolute;
+  transform: rotate(45deg);
+
+
+  top: -75%;
+  margin-top: 75px;
+  left: 50%;
+  margin-left: -71px;
+
+  background-color: black;
+  
+  border: 5px solid #ffffff;
+  border-top: none;
+  border-left: none;
+
+}
+
+div::after {
+  content: "Elzero";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  
+  color: white;
+}

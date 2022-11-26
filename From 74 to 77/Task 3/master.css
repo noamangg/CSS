@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  
+  background-color: #DFDFF7;
+
+  
+  border: 3px solid black;
+  border-left-color: transparent;
+  
+  animation: rotateS 1s linear reverse infinite;
+  
+}
+
+@keyframes rotateS {
+  to {
+    transform: rotate(1turn);
+  }
+}

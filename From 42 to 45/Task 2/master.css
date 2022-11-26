@@ -1,0 +1,15 @@
+:root {
+  --mainColor: #009688;
+  --mainPadding: 10px;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div {
+  color: var(--mainColor, red);
+  padding: var(--mainPadding, 10px);
+  margin: var(--mainPadding, 10px);
+  border: var(--mainColor, black) 1px solid;
+
+  width: 500px;
+}
